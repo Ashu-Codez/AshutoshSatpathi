@@ -7,5 +7,10 @@ export default defineConfig({
   plugins: [react(),
     tailwindcss(),
   ],
-  
+  build: {
+    rollupOptions: {
+      // Externalize the module so it isn’t bundled
+      external: ['@gsap/React']
+    }
+  }
 })

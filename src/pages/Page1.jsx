@@ -3,7 +3,7 @@ import TiltText from '../assets/components/TiltText';
 import Page1Bottom from '../assets/components/Page1Bottom'
 import gsap from "gsap";
 import {useGSAP} from '@gsap/React';
-gsap.registerPlugin(useGSAP);
+
 
 const Page1 = () => {
 
